@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    color: #eaeaea;
+}
+
+:root {
+    /* font styles */
+    --title: 'Cormorant Infant', serif;
+    --subtitle: 'NTR', sans-serif;
+    --reading: 'Kanit', sans-serif;
+
+    /* font sizes */
+    --tsize: 4em;
+    --ssize: 0.9em;
+    --rsize: 1.1em;
+}
+
+body {
+    background-color: #191919;
+}
+
+#hlf {
+    position: fixed;
+    width: 50px;
+    filter: drop-shadow(2px 2px 0px black)
+}
+
+#logo {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 500px;
+}
+
+#fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(30%);
+}
